@@ -17,6 +17,22 @@ margin-left:20px;
 white-space:nowrap;
 }
 
+.nav-links a::after{
+content:"";
+position:absolute;
+left:50%;
+bottom:-3px;
+width:0;
+height:2px;
+background:#00ff88;
+transform:translateX(-50%);
+transition:width 0.25s ease;
+}
+
+.nav-links a:hover::after{
+width:70%;
+}
+
 .floating-text{
 position:static;
 transform:none;
