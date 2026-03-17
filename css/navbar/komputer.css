@@ -17,6 +17,12 @@ margin-left:20px;
 white-space:nowrap;
 }
 
+.floating-text{
+position:static;
+transform:none;
+margin-left:20px;
+}
+
 .nav-logo{
 margin-left:auto;
 }
