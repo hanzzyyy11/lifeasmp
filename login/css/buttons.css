@@ -1,3 +1,8 @@
+@font-face{
+font-family:'Minecraft';
+src:url('../fonts/Minecraftia-Regular.ttf') format('truetype');
+}
+
 /* Divider neon shine */
 .divider {
     width: 100%;
