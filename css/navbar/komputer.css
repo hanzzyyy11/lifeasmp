@@ -1,0 +1,12 @@
+@media (min-width: 900px){
+
+.menu-btn{
+display:none;
+}
+
+.nav-links{
+display:flex;
+gap:20px;
+}
+
+}
