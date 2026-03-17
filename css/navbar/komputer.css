@@ -3,8 +3,9 @@
 .navbar{
 display:flex;
 align-items:center;
-justify-content:space-between; /* kiri - tengah - kanan */
-}
+flex-wrap:nowrap;
+position:relative;
+} 
 
 /* sembunyikan tombol hp */
 .menu-btn{
@@ -15,10 +16,10 @@ display:none;
 .nav-logo{
 display:flex;
 align-items:center;
-gap:8px;
+gap:6px;
+margin-right:0;
 }
 
-/* text kecil */
 .floating-text{
 font-size:13px;
 position:static;
