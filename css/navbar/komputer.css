@@ -34,7 +34,7 @@ margin-right:auto;
 }
 
 /* link style */
-.navbar a{
+.nav-links a{
 position:relative;
 text-decoration:none;
 color:white;
@@ -43,13 +43,11 @@ border-radius:20px;
 transition:background .25s ease;
 }
 
-/* hover background */
-.navbar a:hover{
+.nav-links a:hover{
 background:rgba(0,255,136,0.15);
 }
 
-/* underline */
-.navbar a::after{
+.nav-links a::after{
 content:"";
 position:absolute;
 left:50%;
@@ -61,7 +59,7 @@ transform:translateX(-50%);
 transition:width .25s ease;
 }
 
-.navbar a:hover::after{
+.nav-links a:hover::after{
 width:70%;
 }
 
